@@ -8,7 +8,6 @@ finally, we just need to go over the remainder characters in the dict and add to
 
 '''
 
-
 def customSortString(order: str, s: str) -> str:
     aux_dict = dict()
 

@@ -5,9 +5,6 @@ don't call recursion -> multiple unnecessary computations
 create and array and calculate based on the previous values
 '''
 
-
-
-
 def fib(n):
     if n==0: return 0
     if n==1: return 1
