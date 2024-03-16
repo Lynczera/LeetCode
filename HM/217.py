@@ -10,7 +10,7 @@ from ast import List
 def containsDuplicate(nums: List[int]) -> bool:
     count = dict()
     for num in nums:
-        if num in count.keys():
+        if num in count:
             return True
         else:
             count[num] = 1

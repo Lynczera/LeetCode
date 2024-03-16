@@ -1,6 +1,5 @@
 test = dict()
 
-test["a"] = 12
-test["b"] = 2
+test["a"] = [12, 13,14]
 
-print(max(test.values()))
+print(test["b"])
